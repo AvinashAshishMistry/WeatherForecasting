@@ -73,7 +73,7 @@ A sleek and interactive web application that delivers real-time weather insights
 🧪 [Explore the Forecast Tool](https://AvinashAshishMistry.github.io/WeatherForcasting/)
 
 ---
-## preview Images
+## Preview Images
 [Explore the Forecast Tool](preview/p1.png)
 [Explore the Forecast Tool](preview/p2.png)
 [Explore the Forecast Tool](preview/p3.png)
@@ -91,4 +91,3 @@ A sleek and interactive web application that delivers real-time weather insights
 
 Contributions are welcome!  
 Fork the repo and submit your improvements or bug fixes.  
-Help us make the skies clearer!
