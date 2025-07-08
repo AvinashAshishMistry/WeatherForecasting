@@ -70,7 +70,7 @@ A sleek and interactive web application that delivers real-time weather insights
 
 ## 🔗 Launch It Online
 
-🧪 [Explore the Forecast Tool](https://AvinashAshishMistry.github.io/WeatherForcasting/)
+🧪 [Explore the Forecast Tool](https://avinashashishmistry.github.io/WeatherForecasting/)
 
 ---
 ## Preview Images
