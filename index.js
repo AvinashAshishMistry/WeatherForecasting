@@ -1,4 +1,4 @@
-// alert("For better experience use the desktop mode or pc.")
+alert("For better experience use the desktop mode or pc.")
 const hfa = document.querySelectorAll('.hfa');
 const dfa = document.querySelectorAll('.dfa');
 
