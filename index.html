@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header class="navbar">
+        <h1>WeatherForecast.</h1>
+    </header>
+
+    <div class="container">
+
+        <div class="current-weather">
+
+            <div class="search">
+                <i class="fa-light fa-location-dot fa-xl" style="color: #000000;"></i>
+                <input type="text" id="citySearch" placeholder="Type a city name...">
+            </div>
+
+            <div class="today">
+                <p class="today-temp">--°C</p>
+                <p class="today-condition">------</p>
+                <p class="today-discription">----------------------</p>
+            </div>
+
+            <div class="today-other">
+                <div class="st">
+                    <i class="fa-light fa-temperature-list fa-xl" style="color: #000000;"></i>
+                    <p>Feels like</p>
+                    <p class="feelslike">--°C</p>
+                </div>
+
+                <div class="st">
+                    <i class="fa-light fa-wind fa-xl" style="color: #000000;"></i>
+                    <p class="wd">-- Wind</p>
+                    <p class="ws">- km/h</p>
+                </div>
+
+                <div class="st">
+                    <i class="fa-light fa-droplet-degree fa-xl" style="color: #000000;"></i>
+                    <p>Humidity</p>
+                    <p class="humidity">-- %</p>
+                </div>
+
+                <div class="st">
+                    <i class="fa-light fa-sun-bright fa-xl" style="color: #000000;"></i>
+                    <p>UV</p>
+                    <p class="uv">-- </p>
+                </div>
+
+                <div class="st feelslike">
+                    <i class="fa-light fa-eye fa-xl" style="color: #000000;"></i>
+                    <p>Visibility</p>
+                    <p class="visibility">--.-- km</p>
+                </div>
+
+                <div class="st">
+                    <i class="fa-light fa-heat fa-xl" style="color: #000000;"></i>
+                    <p>Air Pressure</p>
+                    <p class="pressure">--- hpa</p>
+                </div>
+            </div>
+
+            <ul id="suggestions"></ul>
+        </div>
+
+        <div class="future-forecast">
+
+            <div class="hw">
+
+                <h3><i class="fa-regular fa-clock-three fa-sm" style="color: #000000;"></i> Hourly Forecast</h3>
+                <hr>
+                <div class="scroll ahw eachHour">
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+                    <div class="hfa hf"></div>
+
+                </div>
+            </div>
+
+            <div class="hw">
+
+                <h3><i class="fa-regular fa-clock-three fa-sm" style="color: #000000;"></i> Daily Forecast</h3>
+                <hr>
+                <div class="scroll ahw">
+
+                    <div class="dfa hf"></div>
+                    <div class="dfa hf"></div>
+                    <div class="dfa hf"></div>
+                    <div class="dfa hf"></div>
+                    <div class="dfa hf"></div>
+                    <div class="dfa hf"></div>
+                    <div class="dfa hf"></div>
+
+                </div>
+            </div>
+
+            <div class="aq-suns">
+                <div class="aqs aqi">
+                    <h3>
+                        <span class="material-symbols-outlined">vo2_max</span> Air quality
+                    </h3>
+                    <hr>
+                    <h3 class="aqi-condition">----- --</h3>
+                    <div class="aqIndex">
+                        <div> </div>
+                    </div>
+                    <p class="aqi-discription">----------------------</p>
+                </div>
+
+                <div class="aqs">
+
+                    <div class="horizon">
+
+                        <i class="fa-regular fa-sunrise fa-sm sm1" style="color: #000000;"></i>
+                        <i class="fa-regular fa-sunset fa-sm sm2"
+                            style="color: #000000; left: 80%;position:relative;"></i>
+                        <div class="set-rise">
+                            <div class="glass set1">
+                                <p>------</p>
+                                <P>-:-- --</P>
+                            </div>
+                            <div class="glass set2">
+                                <p>------</p>
+                                <P>-:-- --</P>
+                            </div>
+                        </div>
+                        <div class="orbiter"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="module" src="./index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
